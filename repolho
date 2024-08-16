@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8>
+    <meta name="viewport"
+
+content="width=device-width, inital-scale=1.0">
+    <title>Botões de Link na Parte Esquerda</title>
+         .left-buttons {
+             position: fixed;
+             left: 10px;
+             top: 50%;
+             transform: transLatey(-50%);
+             display: flex;
+            flex-direction: column;
+      }
+
+    .left-buttons a {
+      margin: 10px 0;
+      padding: 10px 20px;
+      background-color: #007BFF:
+      color: white;
+      text-decoration: nome;
+      text-align: center;
+      border-radius: 5px;
+      cursor: pointer:
+     
+    }
+
+    .left-buttons a:hover {
+       background-color: #0056b3:
+    }
+</style>
+</head>
